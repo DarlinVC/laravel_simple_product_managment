@@ -18,6 +18,6 @@ class CreateCurrenciesTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('tb_currencies');
+        Schema::dropIfExists('currencies');
     }
 }
